@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVT245D,118
+D 74LVT245 - 3.3 V octal transceiver with direction pin (3-state)@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74LVT245.pdf
+$ENDCMP
+#
+#End Doc Library
