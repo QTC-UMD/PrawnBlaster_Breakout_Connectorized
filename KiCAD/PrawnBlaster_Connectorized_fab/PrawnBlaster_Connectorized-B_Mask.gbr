@@ -1,19 +1,30 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.5)*%
-%TF.CreationDate,2022-05-16T15:03:43-04:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.7)*%
+%TF.CreationDate,2022-09-28T11:50:51-04:00*%
 %TF.ProjectId,PrawnBlaster_Connectorized,50726177-6e42-46c6-9173-7465725f436f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.5)) date 2022-05-16 15:03:43*
+G04 Created by KiCad (PCBNEW (6.0.7)) date 2022-09-28 11:50:51*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10R,5.080000X1.500000*%
+%ADD10C,3.200000*%
+%ADD11R,5.080000X1.500000*%
 G04 APERTURE END LIST*
 D10*
+%TO.C,REF\u002A\u002A*%
+X94440000Y-108510000D03*
+%TD*%
+%TO.C,REF\u002A\u002A*%
+X94480000Y-64010000D03*
+%TD*%
+%TO.C,REF\u002A\u002A*%
+X153310000Y-88710000D03*
+%TD*%
+D11*
 %TO.C,J6*%
 X182397500Y-104125000D03*
 X182397500Y-112625000D03*
