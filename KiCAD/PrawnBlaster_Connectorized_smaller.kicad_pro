@@ -56,10 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "starved_thermal|99018000|71680000|ac747a37-7348-40fa-bcc5-ffa740e97242|cc11b5d3-5c19-4d29-b493-21bc72ec4c3b|F.Cu",
-        "starved_thermal|99860000|99620000|ac747a37-7348-40fa-bcc5-ffa740e97242|180fa346-8a0c-4cbb-a203-5f8596e28190|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -412,7 +409,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PrawnBlaster_Connectorized.kicad_pro",
+    "filename": "PrawnBlaster_Connectorized_smaller.kicad_pro",
     "version": 1
   },
   "net_settings": {
