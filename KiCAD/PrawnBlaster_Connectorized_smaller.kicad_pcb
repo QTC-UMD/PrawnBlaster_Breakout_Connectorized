@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../../../Per David/PBのJ/")
+      (outputdirectory "../../../../Per David/PBJ/")
     )
   )
 
@@ -2316,7 +2316,7 @@
     )
   )
 
-  (gr_rect (start 81.7752 116.1544) (end 174.7752 57.785)
+  (gr_rect (start 81.7752 57.785) (end 174.7752 116.1544)
     (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 94fdd15c-87b2-446c-b1e3-ea23bfcc286f))
   (gr_text "Ext Ref" (at 85.87 62.744) (layer "F.SilkS") (tstamp 2be75797-ef0e-4610-8449-8b29d0c5bdb3)
     (effects (font (size 1 1) (thickness 0.15)))
