@@ -167,7 +167,7 @@
     (pin "1" (uuid 198b02f0-b910-465f-bc93-c79d1151bc72))
     (pin "2" (uuid 17de9712-b2da-43f6-9f39-59e26bc41dbf))
     (instances
-      (project "PrawnBlaster_Connectorized"
+      (project "PrawnBlaster_Connectorized_smaller"
         (path "/aa2b0f9c-998a-4cca-8380-404df994482a/1e1e6e36-1f6a-4052-b514-ab28bca5e4e3"
           (reference "R14") (unit 1)
         )
@@ -192,7 +192,7 @@
     )
     (pin "1" (uuid 8c423b9d-c180-41f2-a5ff-a68ab33c20df))
     (instances
-      (project "PrawnBlaster_Connectorized"
+      (project "PrawnBlaster_Connectorized_smaller"
         (path "/aa2b0f9c-998a-4cca-8380-404df994482a/1e1e6e36-1f6a-4052-b514-ab28bca5e4e3"
           (reference "#PWR032") (unit 1)
         )
@@ -218,7 +218,7 @@
     (pin "1" (uuid 3b0cf47c-5a0e-43a2-a3c3-9c6861933cff))
     (pin "2" (uuid fb2655e6-d363-4a4d-8374-6f6e96170459))
     (instances
-      (project "PrawnBlaster_Connectorized"
+      (project "PrawnBlaster_Connectorized_smaller"
         (path "/aa2b0f9c-998a-4cca-8380-404df994482a/1e1e6e36-1f6a-4052-b514-ab28bca5e4e3"
           (reference "R1") (unit 1)
         )
@@ -244,7 +244,7 @@
     (pin "1" (uuid c344f563-205c-4d8e-89fc-acd3751d5a4f))
     (pin "2" (uuid 0c8ee74b-ad9d-480d-93a6-a381bbefd98f))
     (instances
-      (project "PrawnBlaster_Connectorized"
+      (project "PrawnBlaster_Connectorized_smaller"
         (path "/aa2b0f9c-998a-4cca-8380-404df994482a/1e1e6e36-1f6a-4052-b514-ab28bca5e4e3"
           (reference "R15") (unit 1)
         )
