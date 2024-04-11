@@ -5,11 +5,11 @@
       "Application": "Pcbnew",
       "Version": "7.0.5"
     },
-    "CreationDate": "2024-04-11T16:23:40-04:00"
+    "CreationDate": "2024-04-11T19:00:11-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "PrawnBlaster_Connectorized_smaller",
+      "Name": "PrawnBlaster_Connectorized",
       "GUID": "50726177-6e42-46c6-9173-7465725f436f",
       "Revision": "rev?"
     },
@@ -34,12 +34,12 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "PrawnBlaster_Connectorized_smaller-F_Cu.gbr",
+      "Path": "PrawnBlaster_Connectorized-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PrawnBlaster_Connectorized_smaller-Edge_Cuts.gbr",
+      "Path": "PrawnBlaster_Connectorized-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
