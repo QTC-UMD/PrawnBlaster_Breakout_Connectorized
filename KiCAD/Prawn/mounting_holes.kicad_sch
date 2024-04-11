@@ -53,7 +53,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PrawnBlaster_Connectorized_smaller"
+      (project "PrawnBlaster_Connectorized"
         (path "/aa2b0f9c-998a-4cca-8380-404df994482a/d2bfcd71-19da-44d5-b8e6-2fda66576b94"
           (reference "H2") (unit 1)
         )
@@ -85,7 +85,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PrawnBlaster_Connectorized_smaller"
+      (project "PrawnBlaster_Connectorized"
         (path "/aa2b0f9c-998a-4cca-8380-404df994482a/d2bfcd71-19da-44d5-b8e6-2fda66576b94"
           (reference "H3") (unit 1)
         )
@@ -117,7 +117,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PrawnBlaster_Connectorized_smaller"
+      (project "PrawnBlaster_Connectorized"
         (path "/aa2b0f9c-998a-4cca-8380-404df994482a/d2bfcd71-19da-44d5-b8e6-2fda66576b94"
           (reference "H4") (unit 1)
         )
@@ -149,7 +149,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PrawnBlaster_Connectorized_smaller"
+      (project "PrawnBlaster_Connectorized"
         (path "/aa2b0f9c-998a-4cca-8380-404df994482a/d2bfcd71-19da-44d5-b8e6-2fda66576b94"
           (reference "H1") (unit 1)
         )
