@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "adafruit")(type "KiCad")(uri "C:/Users/Rubi/Documents/KJ/Code/VS Code Profile/PrawnBlaster_Breakout_Connectorized/KiCAD/library/adafruit.pretty")(options "")(descr ""))
+  (lib (name "ARL")(type "KiCad")(uri "C:/Users/Rubi/Documents/KJ/Code/VS Code Profile/PrawnBlaster_Breakout_Connectorized/KiCAD/library/ARL.pretty")(options "")(descr ""))
+  (lib (name "ICs")(type "KiCad")(uri "C:/Users/Rubi/Documents/KJ/Code/VS Code Profile/PrawnBlaster_Breakout_Connectorized/KiCAD/library/ICs.pretty")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "C:/Users/Rubi/Documents/KJ/Code/VS Code Profile/PrawnBlaster_Breakout_Connectorized/KiCAD/library/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "murata")(type "KiCad")(uri "C:/Users/Rubi/Documents/KJ/Code/VS Code Profile/PrawnBlaster_Breakout_Connectorized/KiCAD/library/murata.pretty")(options "")(descr ""))
+)
