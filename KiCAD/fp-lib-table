@@ -1,7 +1,0 @@
-(fp_lib_table
-  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/library/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
-  (lib (name "adafruit")(type "KiCad")(uri "${KIPRJMOD}/library/adafruit.pretty")(options "")(descr ""))
-  (lib (name "ICs")(type "KiCad")(uri "${KIPRJMOD}/library/ICs.pretty")(options "")(descr ""))
-  (lib (name "ARL")(type "KiCad")(uri "${KIPRJMOD}/library/ARL.pretty")(options "")(descr ""))
-  (lib (name "murata")(type "KiCad")(uri "${KIPRJMOD}/library/murata.pretty")(options "")(descr ""))
-)
