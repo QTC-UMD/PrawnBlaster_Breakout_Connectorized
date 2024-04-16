@@ -3555,7 +3555,7 @@
     (property "Reference" "C2" (at 151.765 108.585 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" ".1uF" (at 151.765 111.125 0)
+    (property "Value" "1uF" (at 151.765 111.125 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 155.8798 99.695 0)
