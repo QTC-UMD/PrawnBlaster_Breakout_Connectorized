@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,7 +56,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|125624600|63480800|ac747a37-7348-40fa-bcc5-ffa740e97242|59235957-6ff9-453e-bfa3-b150159290be|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -488,20 +490,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "3_3V_Pico"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "CPW_FR1",
-        "pattern": "PC?"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -562,6 +551,14 @@
     [
       "aa2b0f9c-998a-4cca-8380-404df994482a",
       ""
+    ],
+    [
+      "d2bfcd71-19da-44d5-b8e6-2fda66576b94",
+      "Mounting Holes"
+    ],
+    [
+      "1e1e6e36-1f6a-4052-b514-ab28bca5e4e3",
+      "Power connections (jumpers)"
     ]
   ],
   "text_variables": {}

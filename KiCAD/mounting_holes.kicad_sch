@@ -1,0 +1,167 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8fb55865-5d90-4e15-8bac-0ead9994f3ed)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 68.707 34.671 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 30f429ff-d918-4194-928a-78ba0459644d)
+    (property "Reference" "H2" (at 71.247 33.401 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 71.247 35.941 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380" (at 68.707 34.671 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 68.707 34.671 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "PrawnBlaster_Connectorized"
+        (path "/aa2b0f9c-998a-4cca-8380-404df994482a/d2bfcd71-19da-44d5-b8e6-2fda66576b94"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "PrawnDO_Breakout_Connectorized_sma_in_board"
+        (path "/afe7a1c5-73e2-42c7-95cc-d8f50de6e194"
+          (reference "H2") (unit 1)
+        )
+        (path "/afe7a1c5-73e2-42c7-95cc-d8f50de6e194/5132d733-2a28-4b56-9d88-fda30277539d"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 49.022 46.736 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bc83e846-eaff-4fc1-b464-fc5f695e4d54)
+    (property "Reference" "H3" (at 51.562 45.466 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 51.562 48.006 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380" (at 49.022 46.736 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.022 46.736 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "PrawnBlaster_Connectorized"
+        (path "/aa2b0f9c-998a-4cca-8380-404df994482a/d2bfcd71-19da-44d5-b8e6-2fda66576b94"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "PrawnDO_Breakout_Connectorized_sma_in_board"
+        (path "/afe7a1c5-73e2-42c7-95cc-d8f50de6e194"
+          (reference "H3") (unit 1)
+        )
+        (path "/afe7a1c5-73e2-42c7-95cc-d8f50de6e194/5132d733-2a28-4b56-9d88-fda30277539d"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 68.707 46.736 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f29f8e16-e4c5-4ba4-ba8f-519ba7f686d2)
+    (property "Reference" "H4" (at 71.247 45.466 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 71.247 48.006 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380" (at 68.707 46.736 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 68.707 46.736 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "PrawnBlaster_Connectorized"
+        (path "/aa2b0f9c-998a-4cca-8380-404df994482a/d2bfcd71-19da-44d5-b8e6-2fda66576b94"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "PrawnDO_Breakout_Connectorized_sma_in_board"
+        (path "/afe7a1c5-73e2-42c7-95cc-d8f50de6e194"
+          (reference "H4") (unit 1)
+        )
+        (path "/afe7a1c5-73e2-42c7-95cc-d8f50de6e194/5132d733-2a28-4b56-9d88-fda30277539d"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 49.022 34.671 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f54a5403-8ecd-49a4-8382-3d1abe5aec60)
+    (property "Reference" "H1" (at 51.562 33.401 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 51.562 35.941 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380" (at 49.022 34.671 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.022 34.671 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "PrawnBlaster_Connectorized"
+        (path "/aa2b0f9c-998a-4cca-8380-404df994482a/d2bfcd71-19da-44d5-b8e6-2fda66576b94"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "PrawnDO_Breakout_Connectorized_sma_in_board"
+        (path "/afe7a1c5-73e2-42c7-95cc-d8f50de6e194"
+          (reference "H1") (unit 1)
+        )
+        (path "/afe7a1c5-73e2-42c7-95cc-d8f50de6e194/5132d733-2a28-4b56-9d88-fda30277539d"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+)

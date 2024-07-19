@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/library/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
-  (lib (name "adafruit")(type "Legacy")(uri "${KIPRJMOD}/library/adafruit.lib")(options "")(descr ""))
-  (lib (name "74LVT245D_118")(type "KiCad")(uri "${KIPRJMOD}/library/74LVT245D_118.kicad_sym")(options "")(descr ""))
-  (lib (name "murata")(type "KiCad")(uri "${KIPRJMOD}/library/murata.kicad_sym")(options "")(descr ""))
-)
