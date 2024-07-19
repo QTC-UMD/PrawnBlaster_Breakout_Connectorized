@@ -1,6 +1,6 @@
 # PrawnBlaster_Breakout_Connectorized
 
-This is a KiCAD project design for a breakout board for the [PrawnBlaster][1],
+This is a KiCAD (v7) project design for a breakout board for the [PrawnBlaster][1],
 a pseudo-clock generation device used in the [labscript-suite][2].
 The PrawnBlaster is a custom firmware for the Rasperry Pi Pico microcontroller board.
 
@@ -14,21 +14,19 @@ provides SMA connectorized inputs and outputs,
 buffering ICs at the inputs and outputs,
 and is designed such that all power is drawn from the Pico's power supply.
 
-SMD passive components are mostly 1206, with the output drive termination resistors being 0805.
+SMD passive components are no smaller than 0805 to facilitate hand soldering.
 
 ## Fabrication
 
-The designs in the `KiCAD\PrawnBlaster_Connectorized_print` subdirectory were made to be printed using a Bantham Tools CNC/PCB router.
-They include only the front-side copper and edge-cuts layers.
-For best results, use a single-sided FR1 board with a 1/100 End-Mill and a 1/32 End-Mill.
+The designs in the `KiCAD\gerbers` subdirectory were made to be printed using a Bantham Tools CNC/PCB router.
+They include only the front-side copper and edge-cuts layers with a drill hole file.
+For best results, use a single-sided FR1 board with a 1/100, 1/64 and 1/32 End-Mills.
 
-The designs in the `KiCAD\PrawnBlaster_Connectorized_fab` subdirectory were made for use with a standard
-fabrication house.
-They include backside cuts, silkscreens, soldermask, and paste layers.
+To get outputs for a fabricator, regenerate the gerber files using the fabricators desired export settings.
 
 ## Input/Output Buffers
 
-The PrawnBlaster's clock input is buffered using a 74LVC1G07 buffer/drive with open-drain output,
+The PrawnBlaster's clock input is buffered using a 74LVC1G34 unity-gain buffer,
 which provides compatibility with 5VTTL clock inputs.
 The PrawnBlaster's trigger input is buffered using a 74LVC1G17 buffer Schmitt-trigger,
 which provides compatibility with 5VTTL logic and handles slow rising edge trigger signals.
@@ -40,7 +38,7 @@ capabilities of each line-driving output.
 ## Power Considerations
 
 It is recommended to use USB data/power isolation to power the Pico to ensure
-the PrawnBlaster grounds are not tied to the controlling computer grounds.
+the PrawnBlaster grounds are not tied to the controlling computer grounds while providing sufficient current for all devices.
 We use the NMUSBEVALEXC dual USB port eval board from Murata as it can provide sufficient currents.
 
 [1]: https://github.com/labscript-suite/PrawnBlaster
