@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.10"
+      "Version": "7.0.5"
     },
-    "CreationDate": "2024-04-15T15:28:51-04:00"
+    "CreationDate": "2025-08-20T16:22:10-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -36,6 +36,11 @@
     {
       "Path": "PrawnBlaster_Connectorized-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PrawnBlaster_Connectorized-B_Cu.gbr",
+      "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
